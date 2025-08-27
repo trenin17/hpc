@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Job Name and Files (also --job-name)
+#SBATCH -J heat
+
+#SBATCH --output=./results/job-%j.out
+#SBATCH --error=./results/job-%j.out
+
+# Wall clock limit:
+#SBATCH --time=00:2:30
+#SBATCH --account=h039v
+#SBATCH --partition=micro
+
+./heat test.dat

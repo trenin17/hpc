@@ -1,0 +1,5 @@
+*.o
+*.ppm
+heat
+results/
+*.annot
