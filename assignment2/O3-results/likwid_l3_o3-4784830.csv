@@ -1,0 +1,120 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8174 CPU @ 3.10GHz,
+CPU type:,Intel Skylake SP processor,
+CPU clock:,2.693564029 GHz,
+TABLE,Region jacobi500,Group 1 Raw,L3CACHE,6
+Region Info,HWThread 0,
+RDTSC Runtime [s],0.022363,
+call count,40,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,40843810
+CPU_CLK_UNHALTED_CORE,FIXC1,48682080
+CPU_CLK_UNHALTED_REF,FIXC2,57149930
+MEM_LOAD_RETIRED_L3_HIT,PMC0,1008821
+MEM_LOAD_RETIRED_L3_MISS,PMC1,3081
+UOPS_RETIRED_ALL,PMC2,53007240
+TABLE,Region jacobi500,Group 1 Metric,L3CACHE,7
+Metric,HWThread 0,
+Runtime (RDTSC) [s],0.0224,
+Runtime unhalted [s],0.0181,
+Clock [MHz],2294.4612,
+CPI,1.1919,
+L3 request rate,0.0191,
+L3 miss rate,0.0001,
+L3 miss ratio,0.0030,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8174 CPU @ 3.10GHz,
+CPU type:,Intel Skylake SP processor,
+CPU clock:,2.693564029 GHz,
+TABLE,Region jacobi1500,Group 1 Raw,L3CACHE,6
+Region Info,HWThread 0,
+RDTSC Runtime [s],0.181340,
+call count,40,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,346084400
+CPU_CLK_UNHALTED_CORE,FIXC1,400549600
+CPU_CLK_UNHALTED_REF,FIXC2,470208700
+MEM_LOAD_RETIRED_L3_HIT,PMC0,1640113
+MEM_LOAD_RETIRED_L3_MISS,PMC1,2109468
+UOPS_RETIRED_ALL,PMC2,451760900
+TABLE,Region jacobi1500,Group 1 Metric,L3CACHE,7
+Metric,HWThread 0,
+Runtime (RDTSC) [s],0.1813,
+Runtime unhalted [s],0.1487,
+Clock [MHz],2294.5258,
+CPI,1.1574,
+L3 request rate,0.0083,
+L3 miss rate,0.0047,
+L3 miss ratio,0.5626,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8174 CPU @ 3.10GHz,
+CPU type:,Intel Skylake SP processor,
+CPU clock:,2.693564029 GHz,
+TABLE,Region jacobi2500,Group 1 Raw,L3CACHE,6
+Region Info,HWThread 0,
+RDTSC Runtime [s],0.686192,
+call count,40,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,782425600
+CPU_CLK_UNHALTED_CORE,FIXC1,1545425000
+CPU_CLK_UNHALTED_REF,FIXC2,1814200000
+MEM_LOAD_RETIRED_L3_HIT,PMC0,403403
+MEM_LOAD_RETIRED_L3_MISS,PMC1,1347896
+UOPS_RETIRED_ALL,PMC2,1163716000
+TABLE,Region jacobi2500,Group 1 Metric,L3CACHE,7
+Metric,HWThread 0,
+Runtime (RDTSC) [s],0.6862,
+Runtime unhalted [s],0.5737,
+Clock [MHz],2294.5106,
+CPI,1.9752,
+L3 request rate,0.0015,
+L3 miss rate,0.0012,
+L3 miss ratio,0.7697,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8174 CPU @ 3.10GHz,
+CPU type:,Intel Skylake SP processor,
+CPU clock:,2.693564029 GHz,
+TABLE,Region jacobi3500,Group 1 Raw,L3CACHE,6
+Region Info,HWThread 0,
+RDTSC Runtime [s],1.482337,
+call count,40,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,1525845000
+CPU_CLK_UNHALTED_CORE,FIXC1,3345558000
+CPU_CLK_UNHALTED_REF,FIXC2,3927391000
+MEM_LOAD_RETIRED_L3_HIT,PMC0,356095
+MEM_LOAD_RETIRED_L3_MISS,PMC1,3857711
+UOPS_RETIRED_ALL,PMC2,2262543000
+TABLE,Region jacobi3500,Group 1 Metric,L3CACHE,7
+Metric,HWThread 0,
+Runtime (RDTSC) [s],1.4823,
+Runtime unhalted [s],1.2421,
+Clock [MHz],2294.5194,
+CPI,2.1926,
+L3 request rate,0.0019,
+L3 miss rate,0.0017,
+L3 miss ratio,0.9155,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8174 CPU @ 3.10GHz,
+CPU type:,Intel Skylake SP processor,
+CPU clock:,2.693564029 GHz,
+TABLE,Region jacobi4500,Group 1 Raw,L3CACHE,6
+Region Info,HWThread 0,
+RDTSC Runtime [s],2.465666,
+call count,40,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,2510765000
+CPU_CLK_UNHALTED_CORE,FIXC1,5566462000
+CPU_CLK_UNHALTED_REF,FIXC2,6534544000
+MEM_LOAD_RETIRED_L3_HIT,PMC0,426374
+MEM_LOAD_RETIRED_L3_MISS,PMC1,6064056
+UOPS_RETIRED_ALL,PMC2,3710665000
+TABLE,Region jacobi4500,Group 1 Metric,L3CACHE,7
+Metric,HWThread 0,
+Runtime (RDTSC) [s],2.4657,
+Runtime unhalted [s],2.0666,
+Clock [MHz],2294.5169,
+CPI,2.2170,
+L3 request rate,0.0017,
+L3 miss rate,0.0016,
+L3 miss ratio,0.9343,
