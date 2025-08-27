@@ -1,0 +1,320 @@
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.087 (0.110 GFlop => 1267.63 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.119 (0.990 GFlop => 884.65 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.358 (2.750 GFlop => 631.09 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.173 (5.390 GFlop => 659.52 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.664 (8.910 GFlop => 607.62 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.087; 1267.631
+ 1500; 1.119; 884.654
+ 2500; 4.358; 631.091
+ 3500; 8.173; 659.522
+ 4500; 14.664; 607.624
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1280.38 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 0.934 (0.990 GFlop => 1059.80 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.336 (2.750 GFlop => 634.17 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.186 (5.390 GFlop => 658.46 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.667 (8.910 GFlop => 607.49 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1280.380
+ 1500; 0.934; 1059.797
+ 2500; 4.336; 634.172
+ 3500; 8.186; 658.458
+ 4500; 14.667; 607.492
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.089 (0.110 GFlop => 1237.18 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.055 (0.990 GFlop => 938.62 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.363 (2.750 GFlop => 630.29 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.125 (5.390 GFlop => 663.40 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.680 (8.910 GFlop => 606.93 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.089; 1237.178
+ 1500; 1.055; 938.624
+ 2500; 4.363; 630.290
+ 3500; 8.125; 663.404
+ 4500; 14.680; 606.930
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.089 (0.110 GFlop => 1235.69 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.031 (0.990 GFlop => 960.46 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.369 (2.750 GFlop => 629.36 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.182 (5.390 GFlop => 658.73 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.671 (8.910 GFlop => 607.33 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.089; 1235.690
+ 1500; 1.031; 960.458
+ 2500; 4.369; 629.364
+ 3500; 8.182; 658.732
+ 4500; 14.671; 607.331
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.089 (0.110 GFlop => 1239.42 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.044 (0.990 GFlop => 948.46 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.363 (2.750 GFlop => 630.23 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.185 (5.390 GFlop => 658.50 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.682 (8.910 GFlop => 606.86 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.089; 1239.425
+ 1500; 1.044; 948.465
+ 2500; 4.363; 630.231
+ 3500; 8.185; 658.503
+ 4500; 14.682; 606.860
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1280.58 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 0.946 (0.990 GFlop => 1046.81 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.289 (2.750 GFlop => 641.22 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.133 (5.390 GFlop => 662.75 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.674 (8.910 GFlop => 607.20 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1280.576
+ 1500; 0.946; 1046.814
+ 2500; 4.289; 641.223
+ 3500; 8.133; 662.753
+ 4500; 14.674; 607.199
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1284.04 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.088 (0.990 GFlop => 910.22 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.342 (2.750 GFlop => 633.37 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.157 (5.390 GFlop => 660.80 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.675 (8.910 GFlop => 607.16 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1284.040
+ 1500; 1.088; 910.215
+ 2500; 4.342; 633.370
+ 3500; 8.157; 660.801
+ 4500; 14.675; 607.164
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1271.94 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.010 (0.990 GFlop => 979.86 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.336 (2.750 GFlop => 634.17 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.188 (5.390 GFlop => 658.30 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.686 (8.910 GFlop => 606.70 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1271.940
+ 1500; 1.010; 979.856
+ 2500; 4.336; 634.174
+ 3500; 8.188; 658.297
+ 4500; 14.686; 606.699
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1273.03 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.024 (0.990 GFlop => 966.34 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.357 (2.750 GFlop => 631.21 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.177 (5.390 GFlop => 659.13 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.681 (8.910 GFlop => 606.92 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1273.032
+ 1500; 1.024; 966.342
+ 2500; 4.357; 631.212
+ 3500; 8.177; 659.131
+ 4500; 14.681; 606.921
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.087 (0.110 GFlop => 1270.24 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.011 (0.990 GFlop => 979.69 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.348 (2.750 GFlop => 632.42 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.167 (5.390 GFlop => 659.98 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.700 (8.910 GFlop => 606.13 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.087; 1270.238
+ 1500; 1.011; 979.690
+ 2500; 4.348; 632.421
+ 3500; 8.167; 659.979
+ 4500; 14.700; 606.128
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.089 (0.110 GFlop => 1236.33 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.117 (0.990 GFlop => 886.11 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.341 (2.750 GFlop => 633.43 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.118 (5.390 GFlop => 663.98 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.663 (8.910 GFlop => 607.66 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.089; 1236.329
+ 1500; 1.117; 886.110
+ 2500; 4.341; 633.426
+ 3500; 8.118; 663.979
+ 4500; 14.663; 607.659
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1284.99 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 0.970 (0.990 GFlop => 1020.43 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.286 (2.750 GFlop => 641.59 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.190 (5.390 GFlop => 658.13 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.705 (8.910 GFlop => 605.92 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1284.987
+ 1500; 0.970; 1020.428
+ 2500; 4.286; 641.587
+ 3500; 8.190; 658.131
+ 4500; 14.705; 605.921
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1277.88 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.090 (0.990 GFlop => 907.84 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.363 (2.750 GFlop => 630.27 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.176 (5.390 GFlop => 659.28 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.704 (8.910 GFlop => 605.98 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1277.880
+ 1500; 1.090; 907.845
+ 2500; 4.363; 630.270
+ 3500; 8.176; 659.283
+ 4500; 14.704; 605.978
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1282.62 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 0.963 (0.990 GFlop => 1027.73 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.321 (2.750 GFlop => 636.40 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.184 (5.390 GFlop => 658.57 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.696 (8.910 GFlop => 606.30 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1282.619
+ 1500; 0.963; 1027.734
+ 2500; 4.321; 636.397
+ 3500; 8.184; 658.568
+ 4500; 14.696; 606.302
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1281.08 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.067 (0.990 GFlop => 927.69 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.354 (2.750 GFlop => 631.54 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.170 (5.390 GFlop => 659.72 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.665 (8.910 GFlop => 607.57 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1281.080
+ 1500; 1.067; 927.695
+ 2500; 4.354; 631.540
+ 3500; 8.170; 659.718
+ 4500; 14.665; 607.566
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1274.83 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.154 (0.990 GFlop => 858.17 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.356 (2.750 GFlop => 631.30 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.169 (5.390 GFlop => 659.80 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.670 (8.910 GFlop => 607.35 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1274.829
+ 1500; 1.154; 858.165
+ 2500; 4.356; 631.303
+ 3500; 8.169; 659.804
+ 4500; 14.670; 607.348
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1283.76 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.031 (0.990 GFlop => 959.78 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.342 (2.750 GFlop => 633.35 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.175 (5.390 GFlop => 659.31 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.708 (8.910 GFlop => 605.79 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1283.757
+ 1500; 1.031; 959.777
+ 2500; 4.342; 633.345
+ 3500; 8.175; 659.310
+ 4500; 14.708; 605.791
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1285.02 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 1.069 (0.990 GFlop => 926.44 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.335 (2.750 GFlop => 634.37 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.153 (5.390 GFlop => 661.10 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.672 (8.910 GFlop => 607.27 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1285.020
+ 1500; 1.069; 926.441
+ 2500; 4.335; 634.369
+ 3500; 8.153; 661.098
+ 4500; 14.672; 607.269
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1276.61 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 0.965 (0.990 GFlop => 1025.67 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.311 (2.750 GFlop => 637.85 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.172 (5.390 GFlop => 659.53 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.669 (8.910 GFlop => 607.41 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1276.607
+ 1500; 0.965; 1025.666
+ 2500; 4.311; 637.853
+ 3500; 8.172; 659.533
+ 4500; 14.669; 607.408
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00 
+   2: (1.00, 1.00) 1.00 0.50 
+Resolution:   500Resolution:   500, Time: 0.086 (0.110 GFlop => 1284.69 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500Resolution:  1500, Time: 0.937 (0.990 GFlop => 1056.54 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500Resolution:  2500, Time: 4.337 (2.750 GFlop => 634.06 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500Resolution:  3500, Time: 8.168 (5.390 GFlop => 659.88 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500Resolution:  4500, Time: 14.638 (8.910 GFlop => 608.69 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.086; 1284.687
+ 1500; 0.937; 1056.542
+ 2500; 4.337; 634.061
+ 3500; 8.168; 659.882
+ 4500; 14.638; 608.693

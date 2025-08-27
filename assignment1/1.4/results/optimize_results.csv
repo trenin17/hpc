@@ -1,0 +1,6 @@
+Optimization,Resolution_500,Resolution_1500,Resolution_2500,Resolution_3500,Resolution_4500
+baseline,329.850,311.215,268.932,227.952,220.223
+optimize access pattern,444.793,420.605,386.353,385.457,382.878
+replace array copy,403.975,402.579,334.457,284.222,274.735
+replace array copy + optimize residuum,544.689,550.598,426.850,375.864,340.232
+all optimizations,858.249,867.995,868.626,868.641,867.611

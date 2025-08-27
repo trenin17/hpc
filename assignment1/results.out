@@ -1,0 +1,268 @@
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O0" &&& ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O0  -c -o heat.o heat.c
+icc -O0  -c -o input.o input.c
+icc -O0  -c -o misc.o misc.c
+icc -O0  -c -o timing.o timing.c
+icc -O0  -c -o relax_gauss.o relax_gauss.c
+icc -O0  -c -o relax_jacobi.o relax_jacobi.c
+icc -O0  -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.228 (0.110 GFlop => 482.10 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 2.380 (0.990 GFlop => 415.97 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 8.838 (2.750 GFlop => 311.15 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 20.531 (5.390 GFlop => 262.53 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 35.402 (8.910 GFlop => 251.68 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.228; 482.099
+ 1500; 2.380; 415.968
+ 2500; 8.838; 311.153
+ 3500; 20.531; 262.533
+ 4500; 35.402; 251.684
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O1" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O1 -c -o heat.o heat.c
+icc -O1 -c -o input.o input.c
+icc -O1 -c -o misc.o misc.c
+icc -O1 -c -o timing.o timing.c
+icc -O1 -c -o relax_gauss.o relax_gauss.c
+icc -O1 -c -o relax_jacobi.o relax_jacobi.c
+icc -O1 -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.077 (0.110 GFlop => 1433.88 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.928 (0.990 GFlop => 1067.15 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.686 (2.750 GFlop => 746.10 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 8.985 (5.390 GFlop => 599.92 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 15.138 (8.910 GFlop => 588.59 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.077; 1433.879
+ 1500; 0.928; 1067.154
+ 2500; 3.686; 746.097
+ 3500; 8.985; 599.919
+ 4500; 15.138; 588.589
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O2" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O2 -c -o heat.o heat.c
+icc -O2 -c -o input.o input.c
+icc -O2 -c -o misc.o misc.c
+icc -O2 -c -o timing.o timing.c
+icc -O2 -c -o relax_gauss.o relax_gauss.c
+icc -O2 -c -o relax_jacobi.o relax_jacobi.c
+icc -O2 -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.064 (0.110 GFlop => 1729.75 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.978 (0.990 GFlop => 1012.54 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.769 (2.750 GFlop => 729.56 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 8.035 (5.390 GFlop => 670.84 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.899 (8.910 GFlop => 690.78 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.064; 1729.746
+ 1500; 0.978; 1012.537
+ 2500; 3.769; 729.559
+ 3500; 8.035; 670.837
+ 4500; 12.899; 690.777
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O3" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O3 -c -o heat.o heat.c
+icc -O3 -c -o input.o input.c
+icc -O3 -c -o misc.o misc.c
+icc -O3 -c -o timing.o timing.c
+icc -O3 -c -o relax_gauss.o relax_gauss.c
+icc -O3 -c -o relax_jacobi.o relax_jacobi.c
+icc -O3 -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.063 (0.110 GFlop => 1749.83 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 1.132 (0.990 GFlop => 874.53 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.722 (2.750 GFlop => 738.93 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.797 (5.390 GFlop => 691.28 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.705 (8.910 GFlop => 701.27 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.063; 1749.834
+ 1500; 1.132; 874.528
+ 2500; 3.722; 738.927
+ 3500; 7.797; 691.283
+ 4500; 12.705; 701.273
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-Ofast" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -Ofast -c -o heat.o heat.c
+icc -Ofast -c -o input.o input.c
+icc -Ofast -c -o misc.o misc.c
+icc -Ofast -c -o timing.o timing.c
+icc -Ofast -c -o relax_gauss.o relax_gauss.c
+icc -Ofast -c -o relax_jacobi.o relax_jacobi.c
+icc -Ofast -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.063 (0.110 GFlop => 1733.54 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.872 (0.990 GFlop => 1135.91 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.595 (2.750 GFlop => 765.05 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.795 (5.390 GFlop => 691.45 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.788 (8.910 GFlop => 696.74 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.063; 1733.535
+ 1500; 0.872; 1135.915
+ 2500; 3.595; 765.053
+ 3500; 7.795; 691.445
+ 4500; 12.788; 696.741
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O3 -xhost" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O3 -xhost -c -o heat.o heat.c
+icc -O3 -xhost -c -o input.o input.c
+icc -O3 -xhost -c -o misc.o misc.c
+icc -O3 -xhost -c -o timing.o timing.c
+icc -O3 -xhost -c -o relax_gauss.o relax_gauss.c
+icc -O3 -xhost -c -o relax_jacobi.o relax_jacobi.c
+icc -O3 -xhost -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.062 (0.110 GFlop => 1765.77 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 1.331 (0.990 GFlop => 743.96 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.758 (2.750 GFlop => 731.83 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.821 (5.390 GFlop => 689.18 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.493 (8.910 GFlop => 713.23 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.062; 1765.766
+ 1500; 1.331; 743.957
+ 2500; 3.758; 731.827
+ 3500; 7.821; 689.183
+ 4500; 12.493; 713.225
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-Ofast -xhost" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -Ofast -xhost -c -o heat.o heat.c
+icc -Ofast -xhost -c -o input.o input.c
+icc -Ofast -xhost -c -o misc.o misc.c
+icc -Ofast -xhost -c -o timing.o timing.c
+icc -Ofast -xhost -c -o relax_gauss.o relax_gauss.c
+icc -Ofast -xhost -c -o relax_jacobi.o relax_jacobi.c
+icc -Ofast -xhost -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.064 (0.110 GFlop => 1725.44 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.804 (0.990 GFlop => 1231.55 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.533 (2.750 GFlop => 778.34 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.758 (5.390 GFlop => 694.75 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.394 (8.910 GFlop => 718.89 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.064; 1725.438
+ 1500; 0.804; 1231.553
+ 2500; 3.533; 778.340
+ 3500; 7.758; 694.754
+ 4500; 12.394; 718.888
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O3 -xhost -ipo" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O3 -xhost -ipo -c -o heat.o heat.c
+icc -O3 -xhost -ipo -c -o input.o input.c
+icc -O3 -xhost -ipo -c -o misc.o misc.c
+icc -O3 -xhost -ipo -c -o timing.o timing.c
+icc -O3 -xhost -ipo -c -o relax_gauss.o relax_gauss.c
+icc -O3 -xhost -ipo -c -o relax_jacobi.o relax_jacobi.c
+icc -O3 -xhost -ipo -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.059 (0.110 GFlop => 1856.23 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.800 (0.990 GFlop => 1237.94 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.495 (2.750 GFlop => 786.83 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.633 (5.390 GFlop => 706.12 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.460 (8.910 GFlop => 715.07 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.059; 1856.227
+ 1500; 0.800; 1237.944
+ 2500; 3.495; 786.827
+ 3500; 7.633; 706.116
+ 4500; 12.460; 715.072
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O3 -xhost -ipo -fno-alias" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O3 -xhost -ipo -fno-alias -c -o heat.o heat.c
+icc -O3 -xhost -ipo -fno-alias -c -o input.o input.c
+icc -O3 -xhost -ipo -fno-alias -c -o misc.o misc.c
+icc -O3 -xhost -ipo -fno-alias -c -o timing.o timing.c
+icc -O3 -xhost -ipo -fno-alias -c -o relax_gauss.o relax_gauss.c
+icc -O3 -xhost -ipo -fno-alias -c -o relax_jacobi.o relax_jacobi.c
+icc -O3 -xhost -ipo -fno-alias -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.059 (0.110 GFlop => 1858.48 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.803 (0.990 GFlop => 1233.42 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.508 (2.750 GFlop => 783.88 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.774 (5.390 GFlop => 693.34 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.569 (8.910 GFlop => 708.90 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.059; 1858.485
+ 1500; 0.803; 1233.422
+ 2500; 3.508; 783.880
+ 3500; 7.774; 693.340
+ 4500; 12.569; 708.902
+
+
+h039vaj@login02:~/mphpc/heatdir$ make CFLAGS="-O3 -ipo -fno-alias -xCORE-AVX512" && ./heat test.dat
+rm -f *.o heat *~ *.ppm
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -c -o heat.o heat.c
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -c -o input.o input.c
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -c -o misc.o misc.c
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -c -o timing.o timing.c
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -c -o relax_gauss.o relax_gauss.c
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -c -o relax_jacobi.o relax_jacobi.c
+icc -O3 -ipo -fno-alias -xCORE-AVX512 -o heat heat.o input.o misc.o timing.o relax_gauss.o relax_jacobi.o -lm
+Resolutions       : (500, 1500, ... 4800)
+Iterations        : 40
+Algorithm         : 0 (Jacobi)
+Num. Heat sources : 2
+   1: (0.00, 0.00) 1.00 1.00
+   2: (1.00, 1.00) 1.00 0.50
+Resolution:   500, Time: 0.060 (0.110 GFlop => 1840.33 MFlop/s, residual 0.079613, 40 iterations)
+Resolution:  1500, Time: 0.842 (0.990 GFlop => 1175.70 MFlop/s, residual 0.238673, 40 iterations)
+Resolution:  2500, Time: 3.527 (2.750 GFlop => 779.59 MFlop/s, residual 0.397703, 40 iterations)
+Resolution:  3500, Time: 7.799 (5.390 GFlop => 691.10 MFlop/s, residual 0.556728, 40 iterations)
+Resolution:  4500, Time: 12.609 (8.910 GFlop => 706.63 MFlop/s, residual 0.715752, 40 iterations)
+  500; 0.060; 1840.327
+ 1500; 0.842; 1175.697
+ 2500; 3.527; 779.589
+ 3500; 7.799; 691.103
+ 4500; 12.609; 706.629
