@@ -1,0 +1,80 @@
+\documentclass{tudelft-report}
+
+%% Set up the bibliography
+\usepackage{biblatex}
+\addbibresource{report.bib}
+
+%% Additional packages and commands
+\usepackage{parskip}
+\setlist{itemsep=-2pt} % Reducing white space in lists slightly
+\renewcommand{\deg}{\si{\degree}\xspace} % Use \deg easily, everywhere
+
+%% ----------------------------------------------------------------------
+%%    Begin of document + Frontmatter (Roman page numbering)
+%% ----------------------------------------------------------------------
+
+\begin{document}
+
+\frontmatter
+
+%% Define the main parameters
+% \title{Multicore Lab Report}
+\title{Heat Parallelization Report}
+\subtitle{}
+% \author{Group 2}
+\author{Group 2: Rok Grgič Meško, Beatrice Picco, Tiia Tikkala}
+
+% \subject{IN2397} % Cover only
+\subject{Efficient Parallel Programming of Multicore Systems} % Cover only
+
+\affiliation{Technical University of Munich} % Cover only
+\coverimage{figures/free-photo-of-light-on-computer-hardware.jpeg} % Aspect ratio of 2:3 (portrait) recommended
+\definecolor{title}{HTML}{4884d6} % Color for cover title
+
+\makecover
+
+% \input{frontmatter/title-report}
+%\input{frontmatter/preface}
+% \input{frontmatter/summary}
+
+% \tableofcontents
+%\listoffigures
+%\listoftables
+
+% \input{frontmatter/nomenclature}
+
+%% ----------------------------------------------------------------------
+%%    Mainmatter (Arabic page numbering)
+%% ----------------------------------------------------------------------
+
+\mainmatter
+
+% \input{mainmatter/introduction}
+
+\input{mainmatter/compiler-flags}
+\input{mainmatter/profiling}
+\input{mainmatter/openmp}
+\input{mainmatter/heat-mpi}
+\input{mainmatter/hybrid}
+
+% \input{mainmatter/conclusion}
+
+%% Prevent urls running into margins in bibliography
+\setcounter{biburlnumpenalty}{7000}
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{7000}
+
+%% Add bibliography
+\printbibliography[heading=bibintoc,title=References]
+
+%% ----------------------------------------------------------------------
+%%    Appendix (Letters for chapters)
+%% ----------------------------------------------------------------------
+
+\appendix
+
+% \input{appendix/appendix-a}
+%\input{appendix/appendix-b}
+%\input{appendix/appendix-c} % Create file to add
+
+\end{document}
