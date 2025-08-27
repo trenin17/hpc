@@ -1,0 +1,100 @@
+\documentclass[A4]{article}
+
+%\usepackage[iso]{umlaute}
+%\usepackage{german}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1ex}
+\setlength{\columnsep}{25pt}
+
+\textwidth=14cm
+\textheight=23cm
+\setlength{\unitlength}{0.5cm}
+\setlength{\parindent}{0.0cm}
+\setlength{\parskip}{1ex}
+\raggedbottom
+\sloppy
+%\addtolength{\evensidemargin}{-5cm}
+\addtolength{\oddsidemargin}{-2.5cm}
+\addtolength{\topmargin}{-2cm}
+
+\renewcommand{\baselinestretch}{1.0} 
+
+
+\sloppy
+
+% Your name
+\author{Your Name, Your Group Number }
+
+\title{HPC Lab Report}
+
+% Date of your talk
+\date{2.4.2042}
+
+
+\begin{document}
+
+\maketitle
+
+Each students submits a separate report. The diagrams can of course be the same in the group, but the explanations, which are the most important part, have to written individually.
+
+\section{Heat Simulation}
+
+No more than 15 pages. If well written, less is more! Do not change the formatting. It is optimized for reviewing your submission.
+
+I want to understand what you've learned from the week at Frauenchiemsee.
+
+Submit your final hybrid version of your code as zip file. Remove all unnecessary files and add a README detailing compilation and application start. This will be done by the group in Moodle.
+
+\subsection{Sequential Performance}
+
+Talk about the achieved sequential performance with the compiler flags. Explain why -O3 -fnoalias -Xhost gives the best performance in terms of MFlops. 
+
+Give a second graph with the execution time of the compiler optimized version and your manually optimized version. 
+
+Give another diagram with the achieved MFlops of your manually optimized version.
+
+Reason about which of the transformations are really important and why they work. Support your statement with the performance counters / vtune results.
+
+\subsection{OMP Performance}
+
+Show a single diagram with the best performance (Mflops) achieved with OMP on a single node. Explain all aspects that are important.
+
+\subsection{Hybrid Performance}
+
+Show a single diagram with your best performance (MFlops) for four nodes with 192 cores. 
+
+Explain the achieved performance, important influencing factors, and support your arguments with appropriate information from the Traceanalyzer, vtune, or other tools. 
+
+\subsection{Further Research}
+
+Give a list of research topics explored in the project phase on Tuesday afternoon and Wednesday morning by all the groups. Explain what the topics were about and what was achieved end of Wednesday. You can highlight in the list, the topics that you worked on, but also talk about the other topics. 
+
+\section{Abalone}
+
+No more than 15 pages. If well written, less is more! I want to understand what you learned from the week at Frauenchiemsee.
+
+
+\subsection{Alpha/Beta Search}
+
+Briefly describe your implementation of the alpha/beta search and show the performance impact over the baseline.
+
+
+\subsection{Parallelization Scheme}
+
+Describe the basic parallelization scheme (OpenMP vs. MPI / data partitioning and distribution), why you used it, and how well it worked. Define the metric(s) you used. Include one or two diagrams that show speed-up possible at different positions of the board. Provide statistics on load (im)balance.
+
+
+\subsection{Further Optimizations}
+
+Give a list of further optimizations implemented in the project phase. Explain what the optimizations are about, what they achieved over the baseline, and what was achieved end of the week.
+
+
+\subsection{Tournament}
+
+What did you learn about your and others' implementations and the respective performance as seen during the tournament? How did your perspective change over the multiple tournaments?
+
+
+\end{document}
+
